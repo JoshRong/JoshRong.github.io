@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>20250227有感</title>
+    <link href="/2025/02/27/something/20250227%E6%9C%89%E6%84%9F/"/>
+    <url>/2025/02/27/something/20250227%E6%9C%89%E6%84%9F/</url>
+    
+    <content type="html"><![CDATA[<p>今天下班在地铁里听到了一个父亲打电话，电话里都是一些脏话，可以说是骂的真脏了，但是仔细聆听下来一段时间后发现事情没那么简单。</p><p>似乎是有殡仪馆、儿子、求你、把他从冰箱里面拉出来等词汇。听了一段时间后，原来是他的22岁儿子因为某种原因离世了，可能由于他还没有亲手触摸过儿子就冷藏了。他正在打电话去求对方能够联系上殡仪馆的工作人员，把他的儿子从冰箱里面拉出来，如果人呆在里面会受不了的。所以他求求电话对面的人，如果他能感到自己，自己以后也会帮他的。</p><p>地铁人流涌动，他也不顾那么多了，毫不留情的输出自己的心情和请求。我想他也是从外地赶来的一位父亲。</p><p>转头看去，他的耳红面赤，颇为心急。伴随着准备下车的信号到来。他拿着他的衣服匆忙离开了车厢，他的步履比较快，就好像在追赶他那永远停留在22岁的儿子，他的步伐有些忐忑，可能他也只是不能接受儿子的离去罢了。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>杂项</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>杂项</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2025技术规划</title>
+    <link href="/2025/02/07/tech/2025%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/"/>
+    <url>/2025/02/07/tech/2025%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92/</url>
+    
+    <content type="html"><![CDATA[<p>以下是一个详细的 <strong>Todo List</strong>，帮助你从 <strong>高级Java工程师</strong> 逐步进阶到 <strong>技术专家&#x2F;架构师</strong>。每个阶段的目标和任务都清晰列出，方便你跟踪进度。</p><hr><h2 id="Todo-List：Java工程师进阶计划"><a href="#Todo-List：Java工程师进阶计划" class="headerlink" title="Todo List：Java工程师进阶计划"></a><strong>Todo List：Java工程师进阶计划</strong></h2><h3 id="阶段一：巩固底层基础（3-6个月）"><a href="#阶段一：巩固底层基础（3-6个月）" class="headerlink" title="阶段一：巩固底层基础（3-6个月）"></a><strong>阶段一：巩固底层基础（3-6个月）</strong></h3><h4 id="目标"><a href="#目标" class="headerlink" title="目标"></a><strong>目标</strong></h4><p>深入理解Java底层原理、操作系统、网络等基础知识。</p><h4 id="任务清单"><a href="#任务清单" class="headerlink" title="任务清单"></a><strong>任务清单</strong></h4><ul><li><input disabled="" type="checkbox"> 阅读《深入理解Java虚拟机》，掌握JVM内存模型、垃圾回收机制。  </li><li><input disabled="" type="checkbox"> 使用<code>javap</code>工具分析字节码，理解字节码指令集。  </li><li><input disabled="" type="checkbox"> 使用JProfiler或Arthas分析内存泄漏和GC问题，调优JVM参数。  </li><li><input disabled="" type="checkbox"> 实践字节码增强技术（如ASM、Java Agent），实现简单的AOP功能。  </li><li><input disabled="" type="checkbox"> 阅读<code>java.util.concurrent</code>源码，理解AQS、ReentrantLock、线程池的实现。  </li><li><input disabled="" type="checkbox"> 掌握无锁编程（如CAS、LongAdder），实现一个高性能计数器。  </li><li><input disabled="" type="checkbox"> 学习Linux系统调用、进程调度、内存管理机制。  </li><li><input disabled="" type="checkbox"> 使用Wireshark抓包分析TCP&#x2F;IP、HTTP&#x2F;2协议。  </li><li><input disabled="" type="checkbox"> 基于Netty实现一个简单的RPC框架。</li></ul><hr><h3 id="阶段二：分布式与架构设计（6-12个月）"><a href="#阶段二：分布式与架构设计（6-12个月）" class="headerlink" title="阶段二：分布式与架构设计（6-12个月）"></a><strong>阶段二：分布式与架构设计（6-12个月）</strong></h3><h4 id="目标-1"><a href="#目标-1" class="headerlink" title="目标"></a><strong>目标</strong></h4><p>掌握大型分布式系统的设计能力，能够独立完成高可用、高并发架构设计。</p><h4 id="任务清单-1"><a href="#任务清单-1" class="headerlink" title="任务清单"></a><strong>任务清单</strong></h4><ul><li><input disabled="" type="checkbox"> 实现一个简单的分布式协调服务（参考ZooKeeper）。  </li><li><input disabled="" type="checkbox"> 掌握分布式事务解决方案（Seata、TCC、Saga），并在项目中实践。  </li><li><input disabled="" type="checkbox"> 基于Spring Cloud Alibaba或Dubbo，设计一个完整的微服务系统。  </li><li><input disabled="" type="checkbox"> 学习服务网格（Istio）和云原生技术（Kubernetes Operator）。  </li><li><input disabled="" type="checkbox"> 使用Prometheus+Grafana构建监控体系，实现全链路追踪（SkyWalking&#x2F;Jaeger）。  </li><li><input disabled="" type="checkbox"> 设计异地多活架构，解决数据同步与一致性难题。  </li><li><input disabled="" type="checkbox"> 实践限流（Sentinel）、熔断（Hystrix）、降级策略，保障系统稳定性。  </li><li><input disabled="" type="checkbox"> 模拟故障场景（如网络分区、节点宕机），测试系统的容灾能力。</li></ul><hr><h3 id="阶段三：技术创新与影响力（12-18个月）"><a href="#阶段三：技术创新与影响力（12-18个月）" class="headerlink" title="阶段三：技术创新与影响力（12-18个月）"></a><strong>阶段三：技术创新与影响力（12-18个月）</strong></h3><h4 id="目标-2"><a href="#目标-2" class="headerlink" title="目标"></a><strong>目标</strong></h4><p>成为领域专家，推动技术革新，建立行业影响力。</p><h4 id="任务清单-2"><a href="#任务清单-2" class="headerlink" title="任务清单"></a><strong>任务清单</strong></h4><ul><li><input disabled="" type="checkbox"> 选择一个开源项目（如Spring、Apache项目），修复Bug或提交新功能PR。  </li><li><input disabled="" type="checkbox"> 阅读分布式数据库（如TiDB）、消息队列（如Kafka）的源码，分析其核心设计。  </li><li><input disabled="" type="checkbox"> 自研一个小型框架（如RPC、分布式锁），解决特定场景问题。  </li><li><input disabled="" type="checkbox"> 每周写一篇技术博客，总结学习成果。  </li><li><input disabled="" type="checkbox"> 在公司内部组织技术分享会，或参加外部技术大会（如QCon、ArchSummit）。  </li><li><input disabled="" type="checkbox"> 将项目经验整理成案例研究，发布在GitHub或技术社区。  </li><li><input disabled="" type="checkbox"> 深入业务领域（如金融、电商），理解业务痛点和核心指标。  </li><li><input disabled="" type="checkbox"> 提出技术驱动的业务优化方案（如通过实时计算提升用户体验）。  </li><li><input disabled="" type="checkbox"> 探索AI与Java结合的场景（如基于TensorFlow Serving部署机器学习模型）。</li></ul><hr><h3 id="阶段四：技术领导力与全栈能力（18-24个月）"><a href="#阶段四：技术领导力与全栈能力（18-24个月）" class="headerlink" title="阶段四：技术领导力与全栈能力（18-24个月）"></a><strong>阶段四：技术领导力与全栈能力（18-24个月）</strong></h3><h4 id="目标-3"><a href="#目标-3" class="headerlink" title="目标"></a><strong>目标</strong></h4><p>从技术专家向技术领导者转型，具备全栈视野和团队管理能力。</p><h4 id="任务清单-3"><a href="#任务清单-3" class="headerlink" title="任务清单"></a><strong>任务清单</strong></h4><ul><li><input disabled="" type="checkbox"> 主导一个跨团队的技术项目（如架构升级、性能优化），推动技术方案落地。  </li><li><input disabled="" type="checkbox"> 制定团队技术路线图，解决技术债务，推动代码规范与工程效能提升。  </li><li><input disabled="" type="checkbox"> 培养团队成员，建立技术分享文化，组织内部培训与Code Review。  </li><li><input disabled="" type="checkbox"> 学习前端框架（React&#x2F;Vue），实现一个前后端分离的全栈项目。  </li><li><input disabled="" type="checkbox"> 掌握DevOps全流程（CI&#x2F;CD、自动化测试、Infrastructure as Code）。  </li><li><input disabled="" type="checkbox"> 实践SRE理念，设计高可用运维体系（如基于Kubernetes的灰度发布）。  </li><li><input disabled="" type="checkbox"> 提升英文能力，阅读英文技术文档和论文（如Google Research、ACM论文）。  </li><li><input disabled="" type="checkbox"> 参与国际开源社区（如Apache项目），扩大技术影响力。  </li><li><input disabled="" type="checkbox"> 明确职业目标（如CTO、架构师），制定长期成长计划。</li></ul><hr><h3 id="持续行动建议"><a href="#持续行动建议" class="headerlink" title="持续行动建议"></a><strong>持续行动建议</strong></h3><h4 id="每日习惯"><a href="#每日习惯" class="headerlink" title="每日习惯"></a><strong>每日习惯</strong></h4><ul><li><input disabled="" type="checkbox"> 每天1小时阅读源码或技术文档。  </li><li><input disabled="" type="checkbox"> 每周解决一个LeetCode Hard问题（保持算法敏感度）。  </li><li><input disabled="" type="checkbox"> 每月参与一次技术讨论或Code Review。</li></ul><h4 id="项目实践"><a href="#项目实践" class="headerlink" title="项目实践"></a><strong>项目实践</strong></h4><ul><li><input disabled="" type="checkbox"> 每年至少主导或深度参与一个<strong>高难度项目</strong>（如高并发系统、技术创新项目）。  </li><li><input disabled="" type="checkbox"> 每季度完成一个<strong>技术实验</strong>（如压测某框架的极限性能）。</li></ul><h4 id="复盘与调整"><a href="#复盘与调整" class="headerlink" title="复盘与调整"></a><strong>复盘与调整</strong></h4><ul><li><input disabled="" type="checkbox"> 每季度总结技术成长，更新学习计划。  </li><li><input disabled="" type="checkbox"> 每年更新一次简历（即使不跳槽），明确自己的市场价值。</li></ul><hr><h3 id="推荐学习资源"><a href="#推荐学习资源" class="headerlink" title="推荐学习资源"></a><strong>推荐学习资源</strong></h3><ul><li><strong>书籍</strong>：《凤凰架构》《数据密集型应用系统设计》《领域驱动设计》  </li><li><strong>开源项目</strong>：Spring Framework、Apache Dubbo、Netty、Kubernetes  </li><li><strong>网站</strong>：InfoQ、Martin Fowler博客、Google Research、Github Trending</li></ul><hr><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a><strong>注意事项</strong></h3><ol><li><strong>优先级</strong>：根据当前工作需求和个人兴趣，灵活调整任务优先级。  </li><li><strong>实践为主</strong>：每个知识点都要结合实际项目验证，避免“纸上谈兵”。  </li><li><strong>定期复盘</strong>：每季度检查进度，调整学习计划，确保目标达成。</li></ol><hr><p>通过这个 <strong>Todo List</strong>，你可以清晰地规划自己的技术成长路径，逐步实现从 <strong>高级Java工程师</strong> 到 <strong>技术专家&#x2F;架构师</strong> 的跨越！</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>技术规划</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>新年快乐</title>
     <link href="/2025/02/04/something/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/"/>
     <url>/2025/02/04/something/%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
